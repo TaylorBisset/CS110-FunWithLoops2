@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -104,6 +105,8 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 	int numAstTriLowL = 4;
 	cin >> numAstTriLowL;
 	cout << endl;
+
+	cout << setw(numAstTriLowL);
 
 	for (int numAstTriLowLRow = 0; numAstTriLowLRow < numAstTriLowL; numAstTriLowLRow++) 
 	{
