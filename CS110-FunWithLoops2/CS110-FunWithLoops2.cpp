@@ -37,9 +37,19 @@ Ask the user to enter a width (integer between 1 and 50).Using that entered valu
 	cout << "Problem 2. Print a square box of * s with the given width and height.\n\n";
 
 	cout << "Enter an integer between 1 and 50: ";
-	int numAsterisksSquare = 3;
-	cin >> numAsterisksSquare;
+	int numAstSq = 3;
+	cin >> numAstSq;
+	int numAstSqCol = numAstSq;
 	cout << endl;
+
+	for (int numAstSqRow = 0; numAstSqRow < numAstSq; numAstSqRow++)
+	{
+		for (int numAstSqCol = 0; numAstSqCol < numAstSq; numAstSqCol++)
+		{
+			cout << "* ";
+		}
+		cout << endl;
+	}
 
 	cout << endl << endl << "------------------------------" << endl << endl;
 
