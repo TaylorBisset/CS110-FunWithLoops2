@@ -126,7 +126,16 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 
 */
 
+	cout << "Problem 4. Print an equilateral triangle of * s with the given width.The right angle should be on the lower left.\n\n";
 
+	cout << "Enter an integer between 1 and 50: ";
+	int triangleLowerRight = 4;
+	cin >> triangleLowerRight;
+	cout << endl;
+
+
+
+	cout << endl << endl << "------------------------------" << endl << endl;
 
 /*
 6. Print all the positive integers less than 100 that are divisible by the given number. Once you have that done, 
