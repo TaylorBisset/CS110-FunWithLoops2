@@ -61,7 +61,15 @@ Ask the user to enter a width (integer between 1 and 50).Using that entered valu
 *****
 *****
 
+*/
 
+	cout << "Problem 3. Print a square box of * s with the given width and height with a hole in the middle.\n\n";
+
+
+
+	cout << endl << endl << "------------------------------" << endl << endl;
+
+/*
 4. Print an equilateral triangle of * s with the given width.The right angle should be on the lower left.So, given a width of 4:
 *
 **
