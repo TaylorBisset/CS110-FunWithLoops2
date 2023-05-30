@@ -1,5 +1,4 @@
 #include <iostream>
-#include <iomanip>
 
 using namespace std;
 
@@ -102,18 +101,17 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 	cout << "Problem 4. Print an equilateral triangle of * s with the given width.The right angle should be on the lower left.\n\n";
 
 	cout << "Enter an integer between 1 and 50: ";
-	int numAstTriLowL = 4;
-	cin >> numAstTriLowL;
+	int triangleLowerLeft = 4;
+	cin >> triangleLowerLeft;
 	cout << endl;
 
-	cout << setw(numAstTriLowL);
-
-	for (int numAstTriLowLRow = 0; numAstTriLowLRow < numAstTriLowL; numAstTriLowLRow++) 
+	for (int triangleLowerLeftRow = 0; triangleLowerLeftRow < triangleLowerLeft; triangleLowerLeftRow++)
 	{
-		for (int numAstTriLowLCol = 0; numAstTriLowLCol < numAstTriLowL; numAstTriLowLCol++)
+		for (int triangleLowerLeftCol = 0; triangleLowerLeftCol <= triangleLowerLeftRow; triangleLowerLeftCol++)
 		{
-
+			cout << "* ";
 		}
+		cout << endl;
 	}
 
 	cout << endl << endl << "------------------------------" << endl << endl;
