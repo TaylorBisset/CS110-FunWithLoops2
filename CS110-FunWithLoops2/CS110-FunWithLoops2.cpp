@@ -110,7 +110,8 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 	cout << endl << endl << "------------------------------" << endl << endl;
 
 /*
-5. Print an equilateral triangle of * s with the given width.The right angle should be on the lower right.So, given a width of 4:
+5. Print an equilateral triangle of * s with the given width. The right angle should be on the lower right. 
+	So, given a width of 4:
    *
   **
  ***
@@ -118,11 +119,18 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 
 */
 
+
+
 /*
-6. Print all the positive integers less than 100 that are divisible by the given number.Once you have that done, change your code to print those numbers 5 per line.
+6. Print all the positive integers less than 100 that are divisible by the given number. Once you have that done, 
+	change your code to print those numbers 5 per line.
+*/
 
 
-7. Print an equilateral triangle of * s with the given width.The right angle should be on the upper left.So, given a width of 4:
+
+/*
+7. Print an equilateral triangle of * s with the given width. The right angle should be on the upper left. 
+	So, given a width of 4:
 ****
 ***
 **
@@ -130,17 +138,23 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 
 */
 
+
+
 /*
-8. Print an equilateral triangle of * s with the given width.The right angle should be on the upper right.So, given a width of 4:
+8. Print an equilateral triangle of * s with the given width. The right angle should be on the upper right. 
+	So, given a width of 4:
 ****
-***
-**
-*
+ ***
+  **
+   *
 
 */
 
+
+
 /*
-9. #3 above looks bad for boxes of even width.Fix this so that there is a hole of 4 spaces in the center of a large even - width box.For example, for size 6:
+9. #3 above looks bad for boxes of even width.Fix this so that there is a hole of 4 spaces in the center of a large even - width box. 
+	For example, for size 6:
 ******
 ******
 **  **
@@ -150,8 +164,10 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 
 */
 
+
+
 /*
-10. Print a 12x12(or any other size) multiplication table, properly spaced :
+10. Print a 12x12 (or any other size) multiplication table, properly spaced :
 0 1 2 3 4 .. 11 12
 1 1 2 3 4 11 12
 2 2 4 6 8 22 24
@@ -161,11 +177,16 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 . .
 11 11 22 33 44 .. 121 132
 12 12 24 36 48 .. 132 144
+
 That is, each entry in the table takes up 3 characters and is right - aligned, with a space between entries on the same line.
 
 
 When you are finished with the problems, make sure you demonstrate them to the teacher or student assistant.
+*/
 
+
+
+/*
 Congratulations on taking another step in programming.
 */
 }
