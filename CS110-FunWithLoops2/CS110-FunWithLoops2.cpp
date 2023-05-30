@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 /*
-Ask the user to enter a width (integer between 1 and 50).Using that entered value :
+Ask the user to enter a width (integer between 1 and 50). Using that entered value :
 1. Print a line of "width" asterisks (*). That is, if the user enters 3, print 3 asterisks on one line : 
 ***
 
@@ -27,12 +27,12 @@ Ask the user to enter a width (integer between 1 and 50).Using that entered valu
 	cout << endl << endl << "------------------------------" << endl << endl;
 
 /*
-2. Print a square box of * s with the given width (and height). That is, if the user enters 3, print :
+2. Print a square box of * s with the given width (and height). That is, if the user enters 3, print : 
 ***
 ***
 ***
-* 
- */
+
+*/
 
 	cout << "Problem 2. Print a square box of * s with the given width and height.\n\n";
 
@@ -53,7 +53,8 @@ Ask the user to enter a width (integer between 1 and 50).Using that entered valu
 	cout << endl << endl << "------------------------------" << endl << endl;
 
 /*
-3. Print a box with a hole in its center.That is, print a box as in #2 but with the single * in the center(or a * close to the center for boxes with an even width) replaced with a space.For example, if the user inputs 5, print:
+3. Print a box with a hole in its center. That is, print a box as in #2 but with the single * in the center 
+	(or a * close to the center for boxes with an even width) replaced with a space. For example, if the user inputs 5, print: 
 *****
 *****
 ** **
@@ -115,7 +116,9 @@ Ask the user to enter a width (integer between 1 and 50).Using that entered valu
  ***
 ****
 
+*/
 
+/*
 6. Print all the positive integers less than 100 that are divisible by the given number.Once you have that done, change your code to print those numbers 5 per line.
 
 
@@ -125,14 +128,18 @@ Ask the user to enter a width (integer between 1 and 50).Using that entered valu
 **
 *
 
+*/
 
+/*
 8. Print an equilateral triangle of * s with the given width.The right angle should be on the upper right.So, given a width of 4:
 ****
 ***
 **
 *
 
+*/
 
+/*
 9. #3 above looks bad for boxes of even width.Fix this so that there is a hole of 4 spaces in the center of a large even - width box.For example, for size 6:
 ******
 ******
@@ -141,7 +148,9 @@ Ask the user to enter a width (integer between 1 and 50).Using that entered valu
 ******
 ******
 
+*/
 
+/*
 10. Print a 12x12(or any other size) multiplication table, properly spaced :
 0 1 2 3 4 .. 11 12
 1 1 2 3 4 11 12
