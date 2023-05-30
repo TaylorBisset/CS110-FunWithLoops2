@@ -89,17 +89,30 @@ Ask the user to enter a width (integer between 1 and 50).Using that entered valu
 	cout << endl << endl << "------------------------------" << endl << endl;
 
 /*
-4. Print an equilateral triangle of * s with the given width.The right angle should be on the lower left.So, given a width of 4:
+4. Print an equilateral triangle of * s with the given width. The right angle should be on the lower left. So, given a width of 4:
 *
 **
 ***
 ****
 
+*/
 
+	cout << "Problem 4. Print an equilateral triangle of * s with the given width.The right angle should be on the lower left.\n\n";
+
+	cout << "Enter an integer between 1 and 50: ";
+	int numAstTri = 4;
+	cin >> numAstTri;
+	cout << endl;
+
+
+
+	cout << endl << endl << "------------------------------" << endl << endl;
+
+/*
 5. Print an equilateral triangle of * s with the given width.The right angle should be on the lower right.So, given a width of 4:
-*
-**
-***
+   *
+  **
+ ***
 ****
 
 
