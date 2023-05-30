@@ -27,12 +27,23 @@ Ask the user to enter a width (integer between 1 and 50).Using that entered valu
 	cout << endl << endl << "------------------------------" << endl << endl;
 
 /*
-2. Print a square box of * s with the given width(and height) That is, if the user enters 3, print :
+2. Print a square box of * s with the given width (and height). That is, if the user enters 3, print :
 ***
 ***
 ***
+* 
+ */
 
+	cout << "Problem 2. Print a square box of * s with the given width and height.\n\n";
 
+	cout << "Enter an integer between 1 and 50: ";
+	int numAsterisksSquare = 3;
+	cin >> numAsterisksSquare;
+	cout << endl;
+
+	cout << endl << endl << "------------------------------" << endl << endl;
+
+/*
 3. Print a box with a hole in its center.That is, print a box as in #2 but with the single * in the center(or a * close to the center for boxes with an even width) replaced with a space.For example, if the user inputs 5, print:
 *****
 *****
