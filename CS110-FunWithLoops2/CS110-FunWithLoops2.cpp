@@ -101,11 +101,17 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 	cout << "Problem 4. Print an equilateral triangle of * s with the given width.The right angle should be on the lower left.\n\n";
 
 	cout << "Enter an integer between 1 and 50: ";
-	int numAstTri = 4;
-	cin >> numAstTri;
+	int numAstTriLowL = 4;
+	cin >> numAstTriLowL;
 	cout << endl;
 
+	for (int numAstTriLowLRow = 0; numAstTriLowLRow < numAstTriLowL; numAstTriLowLRow++) 
+	{
+		for (int numAstTriLowLCol = 0; numAstTriLowLCol < numAstTriLowL; numAstTriLowLCol++)
+		{
 
+		}
+	}
 
 	cout << endl << endl << "------------------------------" << endl << endl;
 
