@@ -5,10 +5,28 @@ using namespace std;
 int main()
 {
 /*
-Ask the user to enter a width(integer between 1 and 50).Using that entered value :
-1. Print a line of "width" asterisks(*).That is, if the user enters 3, print 3 asterisks on one line : ***
+Ask the user to enter a width (integer between 1 and 50).Using that entered value :
+1. Print a line of "width" asterisks (*). That is, if the user enters 3, print 3 asterisks on one line : 
+***
 
+*/
 
+	cout << "Problem 1. Print a line of 'width' asterisks(*)\n\n";
+
+	cout << "Enter an integer between 1 and 50: ";
+	int numAsterisks = 3;
+	cin >> numAsterisks;
+	cout << endl;
+
+	while (numAsterisks != 0)
+	{
+		cout << "*";
+		numAsterisks--;
+	}
+
+	cout << endl << endl << "------------------------------" << endl << endl;
+
+/*
 2. Print a square box of * s with the given width(and height) That is, if the user enters 3, print :
 ***
 ***
