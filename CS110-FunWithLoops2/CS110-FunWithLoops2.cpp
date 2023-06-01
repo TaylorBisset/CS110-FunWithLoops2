@@ -133,6 +133,19 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 	cin >> triangleLowerRight;
 	cout << endl;
 
+	/*
+		pseudocode: 
+
+		each row needs userInput - 1 "  ", then rowNumber of "* "
+
+		input = 3
+
+		        C1   C2	  C3	if column >= (userInput - row#) {cout << ""}
+		row1 : "  " "  " "* "		   C3 >= 3 - 1
+		row2 : "  " "* " "* "	
+		row3 : "* " "* " "* "	
+	*/
+
 	for (int triangleLowerRightRow = 0; triangleLowerRightRow < triangleLowerRight; triangleLowerRightRow++)
 	{
 		for (int triangleLowerRightCol = 0; triangleLowerRightCol <= triangleLowerRightRow; triangleLowerRightCol++)
