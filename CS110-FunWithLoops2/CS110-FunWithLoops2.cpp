@@ -7,7 +7,7 @@ int main()
 /*
 Ask the user to enter a width (integer between 1 and 50). Using that entered value :
 1. Print a line of "width" asterisks (*). That is, if the user enters 3, print 3 asterisks on one line : 
-***
+* * * 
 
 */
 
@@ -28,9 +28,9 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 
 /*
 2. Print a square box of * s with the given width (and height). That is, if the user enters 3, print : 
-***
-***
-***
+* * * 
+* * * 
+* * * 
 
 */
 
@@ -55,11 +55,11 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 /*
 3. Print a box with a hole in its center. That is, print a box as in #2 but with the single * in the center 
 	(or a * close to the center for boxes with an even width) replaced with a space. For example, if the user inputs 5, print: 
-*****
-*****
-** **
-*****
-*****
+* * * * * 
+* * * * * 
+* *   * * 
+* * * * * 
+* * * * * 
 
 */
 
@@ -91,10 +91,10 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 
 /*
 4. Print an equilateral triangle of * s with the given width. The right angle should be on the lower left. So, given a width of 4:
-*
-**
-***
-****
+* 
+* * 
+* * * 
+* * * * 
 
 */
 
@@ -119,10 +119,10 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 /*
 5. Print an equilateral triangle of * s with the given width. The right angle should be on the lower right. 
 	So, given a width of 4:
-   *
-  **
- ***
-****
+      * 
+    * * 
+  * * * 
+* * * * 
 
 */
 
@@ -154,10 +154,10 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 /*
 7. Print an equilateral triangle of * s with the given width. The right angle should be on the upper left. 
 	So, given a width of 4:
-****
-***
-**
-*
+* * * * 
+* * * 
+* * 
+* 
 
 */
 
@@ -166,10 +166,10 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 /*
 8. Print an equilateral triangle of * s with the given width. The right angle should be on the upper right. 
 	So, given a width of 4:
-****
- ***
-  **
-   *
+* * * * 
+  * * * 
+    * * 
+      * 
 
 */
 
@@ -178,12 +178,12 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 /*
 9. #3 above looks bad for boxes of even width.Fix this so that there is a hole of 4 spaces in the center of a large even - width box. 
 	For example, for size 6:
-******
-******
-**  **
-**  **
-******
-******
+* * * * * * 
+* * * * * * 
+* *     * * 
+* *     * * 
+* * * * * * 
+* * * * * * 
 
 */
 
