@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -156,7 +157,16 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 	change your code to print those numbers 5 per line.
 */
 
+	cout << "Problem 6. Print all the positive integers less than 100 that are divisible by the given number.\n\n";
 
+	cout << "Enter a number: ";
+	int numDivide = 4;
+	cin >> numDivide;
+	cout << endl;
+
+
+
+	cout << endl << endl << "------------------------------" << endl << endl; 
 
 /*
 7. Print an equilateral triangle of * s with the given width. The right angle should be on the upper left. 
