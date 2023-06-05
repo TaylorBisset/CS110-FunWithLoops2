@@ -135,9 +135,16 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 	
 	for (int triLRrow = 0; triLRrow < triLR; triLRrow++)
 	{
-		for (int triLRcol = 0; triLRcol <= triLRrow; triLRcol++)
+		for (int triLRcol = 1; triLRcol <= triLR; triLRcol++)
 		{
-			cout << "* ";
+			if (triLRcol < (triLR - triLRrow))
+			{
+				cout << "  ";
+			}
+			else
+			{
+				cout << "* ";
+			}
 		}
 		cout << endl;
 	}
