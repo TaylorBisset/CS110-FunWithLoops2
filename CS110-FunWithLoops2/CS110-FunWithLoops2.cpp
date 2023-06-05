@@ -164,7 +164,13 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 	cin >> numDivide;
 	cout << endl;
 
-
+	for (int posNum = 1; posNum < 100; posNum++)
+	{
+		if (posNum % numDivide == 0)
+		{
+			cout << posNum;
+		}
+	}
 
 	cout << endl << endl << "------------------------------" << endl << endl; 
 
