@@ -5,12 +5,12 @@ using namespace std;
 
 int main()
 {
-/*
-Ask the user to enter a width (integer between 1 and 50). Using that entered value :
-1. Print a line of "width" asterisks (*). That is, if the user enters 3, print 3 asterisks on one line : 
-* * * 
+	/*
+	Ask the user to enter a width (integer between 1 and 50). Using that entered value :
+	1. Print a line of "width" asterisks (*). That is, if the user enters 3, print 3 asterisks on one line :
+	* * *
 
-*/
+	*/
 
 	cout << "Problem 1. Print a line of 'width' asterisks(*)\n\n";
 
@@ -27,13 +27,13 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 
 	cout << endl << endl << "------------------------------" << endl << endl;
 
-/*
-2. Print a square box of * s with the given width (and height). That is, if the user enters 3, print : 
-* * * 
-* * * 
-* * * 
+	/*
+	2. Print a square box of * s with the given width (and height). That is, if the user enters 3, print :
+	* * *
+	* * *
+	* * *
 
-*/
+	*/
 
 	cout << "Problem 2. Print a square box of * s with the given width and height.\n\n";
 
@@ -53,16 +53,16 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 
 	cout << endl << endl << "------------------------------" << endl << endl;
 
-/*
-3. Print a box with a hole in its center. That is, print a box as in #2 but with the single * in the center 
-	(or a * close to the center for boxes with an even width) replaced with a space. For example, if the user inputs 5, print: 
-* * * * * 
-* * * * * 
-* *   * * 
-* * * * * 
-* * * * * 
+	/*
+	3. Print a box with a hole in its center. That is, print a box as in #2 but with the single * in the center
+		(or a * close to the center for boxes with an even width) replaced with a space. For example, if the user inputs 5, print:
+	* * * * *
+	* * * * *
+	* *   * *
+	* * * * *
+	* * * * *
 
-*/
+	*/
 
 	cout << "Problem 3. Print a square box of * s with the given width and height with a hole in the middle.\n\n";
 
@@ -83,21 +83,21 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 			{
 				cout << "* ";
 			}
-			
+
 		}
 		cout << endl;
 	}
 
 	cout << endl << endl << "------------------------------" << endl << endl;
 
-/*
-4. Print an equilateral triangle of * s with the given width. The right angle should be on the lower left. So, given a width of 4:
-* 
-* * 
-* * * 
-* * * * 
+	/*
+	4. Print an equilateral triangle of * s with the given width. The right angle should be on the lower left. So, given a width of 4:
+	*
+	* *
+	* * *
+	* * * *
 
-*/
+	*/
 
 	cout << "Problem 4. Print an equilateral triangle of * s with the given width. The right angle should be on the lower left.\n\n";
 
@@ -117,15 +117,15 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 
 	cout << endl << endl << "------------------------------" << endl << endl;
 
-/*
-5. Print an equilateral triangle of * s with the given width. The right angle should be on the lower right. 
-	So, given a width of 4:
-      * 
-    * * 
-  * * * 
-* * * * 
+	/*
+	5. Print an equilateral triangle of * s with the given width. The right angle should be on the lower right.
+		So, given a width of 4:
+		  *
+		* *
+	  * * *
+	* * * *
 
-*/
+	*/
 
 	cout << "Problem 5. Print an equilateral triangle of * s with the given width. The right angle should be on the lower right.\n\n";
 
@@ -133,7 +133,7 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 	int triLR = 4;
 	cin >> triLR;
 	cout << endl;
-	
+
 	for (int triLRrow = 0; triLRrow < triLR; triLRrow++)
 	{
 		for (int triLRcol = 1; triLRcol <= triLR; triLRcol++)
@@ -152,10 +152,10 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 
 	cout << endl << endl << "------------------------------" << endl << endl;
 
-/*
-6. Print all the positive integers less than 100 that are divisible by the given number. Once you have that done, 
-	change your code to print those numbers 5 per line.
-*/
+	/*
+	6. Print all the positive integers less than 100 that are divisible by the given number. Once you have that done,
+		change your code to print those numbers 5 per line.
+	*/
 
 	cout << "Problem 6. Print all the positive integers less than 100 that are divisible by the given number.\n\n";
 
@@ -164,12 +164,9 @@ Ask the user to enter a width (integer between 1 and 50). Using that entered val
 	cin >> numDivide;
 	cout << endl;
 
-	for (int posNum = 1; posNum < 100; posNum++)
+	for (int numDivideRow = 0; numDivideRow < numDivide; numDivide++)
 	{
-		if (posNum % numDivide == 0)
-		{
-			cout << posNum;
-		}
+
 	}
 
 	cout << endl << endl << "------------------------------" << endl << endl; 
