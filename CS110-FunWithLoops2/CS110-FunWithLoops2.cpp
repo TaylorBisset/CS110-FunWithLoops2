@@ -314,8 +314,6 @@ int main()
 	cin >> timesTable;
 	cout << endl;
 
-
-
 	cout << endl << endl << "------------------------------" << endl << endl;
 
 	/*
