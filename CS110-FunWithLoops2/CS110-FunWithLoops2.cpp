@@ -269,11 +269,19 @@ int main()
 	cin >> squareHole;
 	cout << endl;
 
+	/*
+	try switch for problem 9.
+	*/
+
 	for (int squareHoleRow = 0; squareHoleRow < squareHole; squareHoleRow++)
 	{
 		for (int squareHoleCol = 0; squareHoleCol < squareHole; squareHoleCol++)
 		{
 			if (squareHoleCol == (squareHole / 2) && squareHoleRow == (squareHole / 2))
+			{
+				cout << "  ";
+			}
+			else if (squareHoleCol == ((squareHole / 2) - 1) && squareHoleRow == ((squareHole / 2) - 1))
 			{
 				cout << "  ";
 			}
@@ -313,6 +321,8 @@ int main()
 	int timesTable = 4;
 	cin >> timesTable;
 	cout << endl;
+
+
 
 	cout << endl << endl << "------------------------------" << endl << endl;
 
