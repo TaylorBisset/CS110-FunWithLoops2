@@ -285,6 +285,14 @@ int main()
 			{
 				cout << "  ";
 			}
+			else if (squareHoleCol == (squareHole / 2) && squareHoleRow == ((squareHole / 2) - 1))
+			{
+				cout << "  ";
+			}
+			else if (squareHoleCol == ((squareHole / 2) - 1) && squareHoleRow == (squareHole / 2))
+			{
+				cout << "  ";
+			}
 			else
 			{
 				cout << "* ";
