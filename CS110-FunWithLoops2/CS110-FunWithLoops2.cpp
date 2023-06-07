@@ -190,14 +190,28 @@ int main()
 
 	*/
 
-	cout << "7. Print an equilateral triangle of * s with the given width. The right angle should be on the upper left.";
+	cout << "7. Print an equilateral triangle of * s with the given width. The right angle should be on the upper left.\n\n";
 
 	cout << "Enter an integer between 1 and 50: ";
 	int triangleUL = 4;
 	cin >> triangleUL;
 	cout << endl;
 
-
+	for (int triangleULRow = 0; triangleULRow < triangleUL; triangleULRow++)
+	{
+		for (int triangleULCol = 1; triangleULCol <= triangleUL; triangleULCol++)
+		{
+			if (triangleULCol <= (triangleUL - triangleULRow))
+			{
+				cout << "* ";
+			}
+			else
+			{
+				cout << "  ";
+			}
+		}
+		cout << endl;
+	}
 
 	cout << endl << endl << "------------------------------" << endl << endl;
 
