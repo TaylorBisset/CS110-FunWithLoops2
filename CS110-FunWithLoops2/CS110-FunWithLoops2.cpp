@@ -225,7 +225,16 @@ int main()
 
 	*/
 
+	cout << "8. Print an equilateral triangle of * s with the given width. The right angle should be on the upper right.\n\n";
 
+	cout << "Enter an integer between 1 and 50: ";
+	int triangleUR = 4;
+	cin >> triangleUR;
+	cout << endl;
+
+
+
+	cout << endl << endl << "------------------------------" << endl << endl;
 
 	/*
 	9. #3 above looks bad for boxes of even width.Fix this so that there is a hole of 4 spaces in the center of a large even - width box. 
