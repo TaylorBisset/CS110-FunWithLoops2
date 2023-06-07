@@ -236,13 +236,13 @@ int main()
 	{
 		for (int triangleURCol = triangleUR; triangleURCol <= triangleUR && triangleURCol != 0; triangleURCol--)
 		{
-			if (triangleURRow <= triangleUR && triangleURCol <= triangleUR)
+			if (triangleURCol >= (triangleURRow + 1))
 			{
-				cout << "* ";
+				cout << "  ";
 			}
 			else
 			{
-				cout << "& ";
+				cout << "* ";
 			}
 		}
 		cout << endl;
