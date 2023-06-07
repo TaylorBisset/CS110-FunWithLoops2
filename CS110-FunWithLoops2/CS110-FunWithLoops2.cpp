@@ -251,7 +251,7 @@ int main()
 	cout << endl << endl << "------------------------------" << endl << endl;
 
 	/*
-	9. #3 above looks bad for boxes of even width.Fix this so that there is a hole of 4 spaces in the center of a large even - width box. 
+	9. #3 above looks bad for boxes of even width. Fix this so that there is a hole of 4 spaces in the center of a large even - width box. 
 		For example, for size 6:
 	* * * * * * 
 	* * * * * * 
@@ -262,18 +262,18 @@ int main()
 
 	*/
 
-	cout << "Problem 3. Print a square box of * s with the given width and height with a hole in the middle.\n\n";
+	cout << "Problem 9. Print a square box of * s with the given width and height with a hole in the middle.\n\n";
 
 	cout << "Enter an integer between 1 and 50: ";
-	int numAstSqH = 4;
-	cin >> numAstSqH;
+	int squareHole = 4;
+	cin >> squareHole;
 	cout << endl;
 
-	for (int numAstSqRowH = 0; numAstSqRowH < numAstSqH; numAstSqRowH++)
+	for (int squareHoleRow = 0; squareHoleRow < squareHole; squareHoleRow++)
 	{
-		for (int numAstSqColH = 0; numAstSqColH < numAstSqH; numAstSqColH++)
+		for (int squareHoleCol = 0; squareHoleCol < squareHole; squareHoleCol++)
 		{
-			if (numAstSqColH == (numAstSqH / 2) && numAstSqRowH == (numAstSqH / 2))
+			if (squareHoleCol == (squareHole / 2) && squareHoleRow == (squareHole / 2))
 			{
 				cout << "  ";
 			}
@@ -290,10 +290,11 @@ int main()
 
 	/*
 	10. Print a 12x12 (or any other size) multiplication table, properly spaced :
-	0 1 2 3 4 .. 11 12
-	1 1 2 3 4 11 12
-	2 2 4 6 8 22 24
-	3 3 6 9 12 33 36
+	
+	0  1  2  3  4 .. 11 12
+	1  1  2  3  4 .. 11 12
+	2  2  4  6  8 .. 22 24
+	3  3  6  9 12 .. 33 36
 	. .
 	. .
 	. .
@@ -306,7 +307,16 @@ int main()
 	When you are finished with the problems, make sure you demonstrate them to the teacher or student assistant.
 	*/
 
+	cout << "Problem 10. Print a 12 x 12 (or any other size) multiplication table, properly spaced.\n\n";
 
+	cout << "Enter an integer between 1 and 50: ";
+	int timesTable = 4;
+	cin >> timesTable;
+	cout << endl;
+
+
+
+	cout << endl << endl << "------------------------------" << endl << endl;
 
 	/*
 	Congratulations on taking another step in programming.
