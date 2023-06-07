@@ -262,7 +262,31 @@ int main()
 
 	*/
 
+	cout << "Problem 3. Print a square box of * s with the given width and height with a hole in the middle.\n\n";
 
+	cout << "Enter an integer between 1 and 50: ";
+	int numAstSqH = 4;
+	cin >> numAstSqH;
+	cout << endl;
+
+	for (int numAstSqRowH = 0; numAstSqRowH < numAstSqH; numAstSqRowH++)
+	{
+		for (int numAstSqColH = 0; numAstSqColH < numAstSqH; numAstSqColH++)
+		{
+			if (numAstSqColH == (numAstSqH / 2) && numAstSqRowH == (numAstSqH / 2))
+			{
+				cout << "  ";
+			}
+			else
+			{
+				cout << "* ";
+			}
+
+		}
+		cout << endl;
+	}
+
+	cout << endl << endl << "------------------------------" << endl << endl;
 
 	/*
 	10. Print a 12x12 (or any other size) multiplication table, properly spaced :
