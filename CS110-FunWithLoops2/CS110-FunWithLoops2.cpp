@@ -232,7 +232,21 @@ int main()
 	cin >> triangleUR;
 	cout << endl;
 
-
+	for (int triangleURRow = triangleUR; triangleURRow <= triangleUR && triangleURRow != 0; triangleURRow--)
+	{
+		for (int triangleURCol = triangleUR; triangleURCol <= triangleUR && triangleURCol != 0; triangleURCol--)
+		{
+			if (triangleURRow <= triangleUR && triangleURCol <= triangleUR)
+			{
+				cout << "* ";
+			}
+			else
+			{
+				cout << "& ";
+			}
+		}
+		cout << endl;
+	}
 
 	cout << endl << endl << "------------------------------" << endl << endl;
 
