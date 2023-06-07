@@ -190,7 +190,16 @@ int main()
 
 	*/
 
+	cout << "7. Print an equilateral triangle of * s with the given width. The right angle should be on the upper left.";
 
+	cout << "Enter an integer between 1 and 50: ";
+	int triangleUL = 4;
+	cin >> triangleUL;
+	cout << endl;
+
+
+
+	cout << endl << endl << "------------------------------" << endl << endl;
 
 	/*
 	8. Print an equilateral triangle of * s with the given width. The right angle should be on the upper right. 
