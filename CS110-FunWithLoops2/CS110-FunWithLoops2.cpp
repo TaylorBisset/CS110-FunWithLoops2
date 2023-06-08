@@ -325,23 +325,26 @@ int main()
 
 	cout << "Problem 10. Print a 12 x 12 (or any other size) multiplication table, properly spaced.\n\n";
 
-	cout << "Enter an integer between 1 and 50: ";
+	cout << "Enter an integer between 1 and 20: ";
 	int timesTable = 4;
 	cin >> timesTable;
 	cout << endl;
 
 	char horLn = 196, verLn = 179;
-	for (int row = 0; row < 10; row++) {
-		for (int row = 0; row <= 10 * 4; row++) {
+	for (int row = 1; row <= timesTable; row++)
+	{
+		for (int row = 1; row <= ((timesTable * 4) + 1); row++) 
+		{
 			cout << horLn;
 		}
 		cout << endl;
-		for (int column = 0; column < 10; column++) {
-			cout << verLn << row << ':' << column;
+
+		for (int column = 1; column <= timesTable; column++)
+		{
+			cout << verLn << setw(3) << (row * column);
 		}
 		cout << verLn << endl;
 	}
-	cout << "\n\n";
 
 	cout << endl << endl << "------------------------------" << endl << endl;
 
