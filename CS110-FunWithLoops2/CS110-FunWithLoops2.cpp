@@ -340,6 +340,14 @@ int main()
 	cin >> timesTable;
 	cout << endl;
 
+
+	/*
+	
+		Create headers outside of the row/column loop.
+	
+	*/
+
+
 	char horLn = 196, verLn = 179;
 	for (int row = 1; row <= timesTable; row++)
 	{
