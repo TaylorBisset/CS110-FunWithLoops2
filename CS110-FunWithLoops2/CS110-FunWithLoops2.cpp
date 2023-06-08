@@ -164,31 +164,28 @@ int main()
 	int posNum = 1;
 	cin >> numDivide;
 	cout << endl;
-
+	
 	/*
 
-		for (row = 0; posNum < 100)
+	for (row = 0; posNum < 100)
+	{
+		for (col = 0, col <= 5)
 		{
-			for (col = 0, col <= 5)
-			{
-				cout << setw(3) << posNum;
-			}
-			cout << endl;
+			cout << setw(3) << posNum;
 		}
+		cout << endl;
+	}
 
 	*/
 
 	for (int numDivideRow = 0; posNum < 100; numDivideRow++) 
 	{
-		if (posNum % numDivide == 0) 
+		for (int numDivideCol = 0; numDivideCol < 5; numDivideCol++) 
 		{
-			for (int numDivideCol = 0; numDivideCol < 5; numDivideCol++)
+			if (posNum % numDivide == 0)
 			{
-				cout << setw(3) << posNum;
+				cout << posNum;
 			}
-		}
-		else
-		{
 			posNum++;
 		}
 		cout << endl; 
