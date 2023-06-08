@@ -167,14 +167,11 @@ int main()
 	
 	/*
 
-	for (row = 0; posNum < 100)
-	{
-		for (col = 0, col <= 5)
-		{
-			cout << setw(3) << posNum;
-		}
-		cout << endl;
-	}
+	use a counter to check when an integer prints.
+	reset counter at 5 and go to next line.
+	use this outside of the loop.
+
+	redo this code snippet from scratch.
 
 	*/
 
