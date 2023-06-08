@@ -21,7 +21,7 @@ int main()
 
 	while (numAsterisks != 0)
 	{
-		cout << "*";
+		cout << "* ";
 		numAsterisks--;
 	}
 
