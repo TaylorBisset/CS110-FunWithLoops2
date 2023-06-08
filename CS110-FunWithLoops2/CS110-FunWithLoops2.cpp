@@ -325,7 +325,7 @@ int main()
 
 	cout << "Problem 10. Print a 12 x 12 (or any other size) multiplication table, properly spaced.\n\n";
 
-	cout << "Enter an integer between 1 and 20: ";
+	cout << "Enter an integer between 1 and 30: ";
 	int timesTable = 4;
 	cin >> timesTable;
 	cout << endl;
@@ -344,6 +344,11 @@ int main()
 			cout << verLn << setw(3) << (row * column);
 		}
 		cout << verLn << endl;
+	}
+	// Repeat horizontal line for loop outside main loop to create ending horizontal line.
+	for (int row = 1; row <= ((timesTable * 4) + 1); row++)
+	{
+		cout << horLn;
 	}
 
 	cout << endl << endl << "------------------------------" << endl << endl;
