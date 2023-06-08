@@ -153,8 +153,8 @@ int main()
 	cout << endl << endl << "------------------------------" << endl << endl;
 
 	/*
-	6. Print all the positive integers less than 100 that are divisible by the given number. Once you have that done,
-		change your code to print those numbers 5 per line.
+	6. Print all the positive integers less than 100 that are divisible by the given number. 
+	Once you have that done, change your code to print those numbers 5 per line.
 	*/
 
 	cout << "Problem 6. Print all the positive integers less than 100 that are divisible by the given number.\n\n";
@@ -164,15 +164,31 @@ int main()
 	int posNum = 1;
 	cin >> numDivide;
 	cout << endl;
-	 
+
+	/*
+
+		for (row = 0; posNum < 100)
+		{
+			for (col = 0, col <= 5)
+			{
+				cout << setw(3) << posNum;
+			}
+			cout << endl;
+		}
+
+	*/
+
 	for (int numDivideRow = 0; posNum < 100; numDivideRow++) 
 	{
-		for (int numDivideCol = 0; numDivideCol < 5; numDivideCol++) 
+		if (posNum % numDivide == 0) 
 		{
-			if (posNum % numDivide == 0)
+			for (int numDivideCol = 0; numDivideCol < 5; numDivideCol++)
 			{
-				cout << posNum;
+				cout << setw(3) << posNum;
 			}
+		}
+		else
+		{
 			posNum++;
 		}
 		cout << endl; 
