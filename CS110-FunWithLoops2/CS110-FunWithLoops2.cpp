@@ -359,13 +359,20 @@ int main()
 
 		for (int column = 0; column <= timesTable; column++)
 		{
-			if (row == 0)		// Row header
+			if (row == 0)				// Row header
 			{
 				cout << verLn << setw(4) << (row + column);
 			}
-			else if (row != 0)	// Times tables
+			else if (row != 0)
 			{
-				cout << verLn << setw(4) << (row * column);
+				if (column == 0)		// Column header
+				{
+					cout << verLn << setw(4) << (row + column);
+				}
+				else if (column != 0)	// Times tables
+				{
+					cout << verLn << setw(4) << (row * column);
+				}
 			}	
 		}
 		cout << verLn << endl;
