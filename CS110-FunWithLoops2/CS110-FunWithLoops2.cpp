@@ -349,22 +349,22 @@ int main()
 
 
 	char horLn = 196, verLn = 179;
-	for (int row = 1; row <= timesTable; row++)
+	for (int row = 0; row <= timesTable; row++)
 	{
-		for (int row = 1; row <= ((timesTable * 4) + 1); row++) 
+		for (int row = 0; row <= ((timesTable + 1) * 5); row++)
 		{
 			cout << horLn;
 		}
 		cout << endl;
 
-		for (int column = 1; column <= timesTable; column++)
+		for (int column = 0; column <= timesTable; column++)
 		{
-			cout << verLn << setw(3) << (row * column);
+			cout << verLn << setw(4) << (row * column);
 		}
 		cout << verLn << endl;
 	}
 	// Repeat horizontal line for loop outside main loop to create ending horizontal line.
-	for (int row = 1; row <= ((timesTable * 4) + 1); row++)
+	for (int row = 0; row <= ((timesTable + 1) * 5); row++)
 	{
 		cout << horLn;
 	}
