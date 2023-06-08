@@ -307,10 +307,10 @@ int main()
 	/*
 	10. Print a 12x12 (or any other size) multiplication table, properly spaced :
 	
-	0  1  2  3  4 .. 11 12
-	1  1  2  3  4 .. 11 12
-	2  2  4  6  8 .. 22 24
-	3  3  6  9 12 .. 33 36
+	0 1 2 3 4 .. 11 12
+	1 1 2 3 4 .. 11 12
+	2 2 4 6 8 .. 22 24
+	3 3 6 9 12 .. 33 36
 	. .
 	. .
 	. .
@@ -330,7 +330,18 @@ int main()
 	cin >> timesTable;
 	cout << endl;
 
-
+	char horLn = 196, verLn = 179;
+	for (int row = 0; row < 10; row++) {
+		for (int row = 0; row <= 10 * 4; row++) {
+			cout << horLn;
+		}
+		cout << endl;
+		for (int column = 0; column < 10; column++) {
+			cout << verLn << row << ':' << column;
+		}
+		cout << verLn << endl;
+	}
+	cout << "\n\n";
 
 	cout << endl << endl << "------------------------------" << endl << endl;
 
