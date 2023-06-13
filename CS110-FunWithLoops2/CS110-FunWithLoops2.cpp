@@ -175,17 +175,20 @@ int main()
 
 	*/
 
-	for (int numDivideRow = 0; posNum < 100; numDivideRow++) 
+	int counter = 0;
+	while (posNum <= 100)
 	{
-		for (int numDivideCol = 0; numDivideCol < 5; numDivideCol++) 
+		if (posNum % numDivide == 0)
 		{
-			if (posNum % numDivide == 0)
-			{
-				cout << posNum;
-			}
-			posNum++;
+			cout << setw(3) << posNum << " ";
+			counter++;
 		}
-		cout << endl; 
+		if (counter == 5)
+		{
+			cout << endl;
+			counter = 0;
+		}
+		posNum++;
 	}
 
 	cout << endl << endl << "------------------------------" << endl << endl; 
